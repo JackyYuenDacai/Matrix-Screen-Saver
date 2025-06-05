@@ -1,0 +1,32 @@
+﻿生成启动时间为 2013/12/1 22:48:36。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\MatrixScreen\MatrixScreen.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\MatrixScreen.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Release\MatrixScreen.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MatrixSrenSaver.cpp
+         MatrixSrenSaver.cpp
+     1>MatrixSrenSaver.cpp(53): warning C4091: “typedef ”: 没有声明变量时忽略“infoWords”的左侧
+     1>MatrixSrenSaver.cpp(59): warning C4091: “typedef ”: 没有声明变量时忽略“TypeThread”的左侧
+     1>MatrixSrenSaver.cpp(191): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>MatrixSrenSaver.cpp(222): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>MatrixSrenSaver.cpp(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\ScrenSaver.res" ScrenSaver.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\Release\MatrixScreen.SCR" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MatrixScreen.SCR.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\Release\MatrixScreen.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\Release\MatrixScreen.lib" /MACHINE:X86 Release\ScrenSaver.res
+         Release\MatrixSrenSaver.obj
+         MatrixScreen.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\Release\MatrixScreen.SCR
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\Release\MatrixScreen.SCR;#1" /manifest ..\Style.manifest Release\MatrixScreen.SCR.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\MatrixScreen.unsuccessfulbuild”。
+         正在对“Release\MatrixScreen.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MatrixScreen\MatrixScreen\MatrixScreen.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.53
