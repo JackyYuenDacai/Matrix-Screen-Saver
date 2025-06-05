@@ -16,7 +16,7 @@ Built in 2013, this screen saver recreates the famous cascading green characters
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Matrix-Screen-Saver.git
+git clone https://github.com/JackyYuenDacai/Matrix-Screen-Saver.git
 ```
 2. Install the required OCR A Std font
 3. Open the solution in Visual Studio
